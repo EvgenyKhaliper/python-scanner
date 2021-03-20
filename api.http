@@ -1,0 +1,19 @@
+POST http://localhost:5000/api/scan
+Accept: "application/json"
+Content-Type: "application/json"
+
+{
+    "timeout": 15
+}
+###
+GET http://localhost:5000/api/scan/7ffa7d6b-89c6-11eb-91ed-2cea7f2d7933
+Accept: "application/json"
+Content-Type: "application/json"
+###
+GET http://localhost:5001/api/
+Accept: "application/json"
+Content-Type: "application/json"
+###
+GET http://localhost:5002/api/
+Accept: "application/json"
+Content-Type: "application/json"
